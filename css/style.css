@@ -16,11 +16,16 @@ html {
 body {
     background-color: var(--primario);
     font-family: var(--fuentePrimaria);
+    position: relative;
+    padding-bottom: 50.4px;
+    min-height: 100vh;
 }
 
 .contenedor {
     max-width: 1100px;
     margin: 0 auto;
+    
+
 }
 
 .sombra {
@@ -31,10 +36,12 @@ body {
 }
 .bg-amarillo {
     background-color: var(--secundario);
+    
 }
 
 .bg-blanco {
     background-color: #fff;
+    margin-bottom: 2rem;
 }
 
 .barra {
@@ -263,10 +270,24 @@ table tbody td button {
 
 .correcto {
     background-color: rgb(179, 241, 117);
-    color: green;
+    color: blue;
 }
 
 .error {  
     background-color: rgb(238, 148, 166);
     color: rgb(163, 0, 33);
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--primarioOscuro);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem 0;
 }
